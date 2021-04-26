@@ -138,17 +138,17 @@ body .modal-shadow .modal {
   height: 360px;
   padding: 30px 60px;
   border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
 }
 body .modal-shadow .modal .modal-animation {
   -webkit-animation: show-modal 0.5s;
           animation: show-modal 0.5s;
 }
-body .modal-shadow .modal .modal h3 {
+body .modal-shadow .modal h3 {
   font-size: 30px;
   margin-bottom: 20px;
 }
-body .modal-shadow .modal .modal p {
+body .modal-shadow .modal p {
   margin-bottom: 10px;
   margin-left: 20px;
   font-size: 20px;
@@ -156,10 +156,12 @@ body .modal-shadow .modal .modal p {
 body .modal-shadow .modal .close {
   display: block;
   margin: 40px auto 0;
-  width: 200px;
+  width: 100px;
+  height: 40px;
   background-color: #FA1406;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
+  border-radius: 5%;
 }
 body .modal-shadow .modal .close:hover {
   background-color: #e2241a;
